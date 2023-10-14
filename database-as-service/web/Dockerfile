@@ -1,5 +1,5 @@
 FROM python:3
-WORKDIR C:/Users/alper/AlperProjects/RestApi-Python/restful-api/web
+WORKDIR C:/Users/alper/AlperProjects/RestApi-Python/database-as-service/web
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
